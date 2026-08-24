@@ -1,0 +1,12 @@
+beautifulsoup4
+langchain
+langchain-unstructured
+unstructured
+langchain-text-splitters
+langchain-chroma
+langchain-openai
+langgraph
+langchainhub
+tavily
+dotenv
+pytest
