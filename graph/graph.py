@@ -37,4 +37,5 @@ builder.add_edge(GENERATE, END)
 
 graph = builder.compile()
 
-graph.get_graph().draw_mermaid_png(output_file_path="graph.png")
+if __name__ == '__main__':
+    graph.get_graph().draw_mermaid_png(output_file_path="graph.png")
