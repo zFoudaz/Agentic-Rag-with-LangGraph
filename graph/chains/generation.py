@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from models import gpt4_1
+from graph.chains.models import gpt4_1
 
 SYSTEM_PROMPT = (
     "You are an assistant for question-answering tasks. "

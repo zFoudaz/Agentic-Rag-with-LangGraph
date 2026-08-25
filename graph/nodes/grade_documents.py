@@ -1,5 +1,5 @@
 from graph.state import State
-from chains.retrieve_grader import retrieve_grader
+from graph.chains.retrieve_grader import retrieve_grader
 
 def grade_documents(state:State) -> State:
     question = state.get('question')

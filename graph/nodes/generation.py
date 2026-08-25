@@ -1,4 +1,4 @@
-from chains.generation import generation_chain
+from graph.chains.generation import generation_chain
 from graph.state import State
 
 def geneartion(state:State) -> State:

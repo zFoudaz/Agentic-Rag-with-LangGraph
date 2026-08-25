@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
-from models import gpt4_1
+from graph.chains.models import gpt4_1
 
 class GradeDoc(BaseModel):
     is_relevant: bool = Field(description='is this document related to the question or not')
